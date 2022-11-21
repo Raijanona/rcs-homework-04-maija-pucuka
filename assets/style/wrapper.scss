@@ -1,0 +1,91 @@
+
+.wrapper-guest {
+    background-image: url("../images/254367.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.wrapper-top {
+    width: fit-content;
+    padding: 80px 30px 10px 150px;
+    color: rgb(184, 163, 71);
+}
+
+.wrapper-post {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.wrapper-post__text {
+    width: fit-content;
+    padding: 40px 30px 10px 80px;
+}
+
+.wrapper-post__img > img {
+    height: 500px;
+    width: 700px;
+    margin: 140px 180px 140px 160px;
+}
+
+.wrapper-blogs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+}
+
+.wrapper-profile {
+    min-height: 100%;
+  }
+
+.main-wrap {
+    padding: 50px;
+  }
+
+.main-wrap > a {
+    color: rgb(23, 31, 20);
+}
+
+.main-wrap > a, h2, h3, h4 {
+    color: rgb(23, 31, 20);
+    font-weight: bold;
+    font-size: large;
+    padding: 20px;
+}
+
+.wrapper-blogs > a {
+    color: rgb(23, 31, 20);
+  }
+  
+.title {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+.main-text {
+    color: rgb(23, 31, 20);
+}
+
+.btn {
+    padding: 10px;
+    color: rgb(23, 31, 20);
+    margin: 20px;
+    font-weight: bold;
+}
+
+.btn-normal {
+    background-color: rgb(49, 62, 105);
+    border: 5px solid rgb(49, 62, 105);
+    &:hover {
+        background-color: rgb(23, 31, 20);
+        color: rgb(49, 62, 105);
+    }
+}
+
+.btn-red {
+    background-color: rgb(109, 21, 21);
+    border: 5px solid rgb(109, 21, 21);
+    &:hover {
+        background-color: rgb(23, 31, 20);
+        color: rgb(109, 21, 21);
+    }
+}

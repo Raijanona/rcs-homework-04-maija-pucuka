@@ -1,0 +1,28 @@
+.footer {
+    background-color: rgb(17, 46, 58);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.footer > img {
+    height: 300px;
+}
+
+.footer-text {
+    color: black;
+    padding: 100px 30px 30px 30px;
+}
+
+.footer-cr {
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer-post {
+    background-color: rgb(17, 46, 58);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-shrink: 0;
+}
